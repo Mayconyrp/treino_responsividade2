@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+
+
+
+/* tela 4k+*/
+
+
+@media (min-width: 2001px) and (max-width:5000px ){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        /* controle da distancia entre os dois cards*/
+        margin-left: 30%;
+    
+    }
+    .container-texto{
+        display: flex;
+        margin-left: 2%;
+        /* barra vertical da lateral do texto*/
+        box-shadow: -10px 0px 0px #00C4FF;
+
+    }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 50em;
+        width: 30em;
+        border-radius:30px;     
+        box-shadow: 2px 8px 29px grey;
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    #card4{
+        display: none;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    
+        
+    }
+    .img-card{
+        width: 80px;
+        height: 80px;
+    }
+    .title-dep{
+        font-size: 3rem;
+        margin-left:2%;
+    
+    }
+    .p1-dep{
+        font-size: 3rem;
+        margin-left:2%;
+    
+    }
+    .p2-dep{
+        font-size: 3rem;
+        margin-top: 60%;
+    }
+    /* aba de textos*/
+        
+        .h1-texto{
+        color: #00C4FF;
+        font-size: 6rem;
+        margin-left:4%
+        }
+        .h3-texto{
+            color: rgb(0, 0, 0);
+            font-size: 3rem;
+            margin-left:4%; 
+            margin-top:5%;
+
+        }
+        .h3-texto2{
+            color: rgb(0, 0, 0);
+            font-size: 3rem;
+            margin-top: 5%;
+            margin-left:4%
+
+        }
+
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 3.5em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        font-size: 5rem;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+}    
+
+
+/* TELA DEKSTOP NORMAL*/
+
+
+@media (min-width: 1300px) and (max-width:2000px ){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        /* controle da distancia entre os dois cards*/
+        margin-left: 30%;
+    
+    }
+    .container-texto{
+        display: flex;
+        margin-left: 2%;
+        /* barra vertical da lateral do texto*/
+        box-shadow: -8px 0px 0px #00C4FF;
+
+    }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 25em;
+        width: 18em;
+        border-radius:30px;     
+        box-shadow: 2px 8px 29px grey;
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    #card4{
+        display: none;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    
+        
+    }
+    .img-card{
+        width: 80px;
+        height: 80px;
+    }
+    .title-dep{
+        font-size: 120%;
+        margin-left:2%;
+    
+    }
+    .p1-dep{
+        font-size: 105%;
+        margin-left:2%;
+    
+    }
+    .p2-dep{
+        font-size: 90%; 
+    }
+    /* aba de textos*/
+        
+        .h1-texto{
+        color: #00C4FF;
+        font-size: 50px;
+        margin-left:4%
+        }
+        .h3-texto{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            margin-left:4%; 
+            margin-top:5%;
+
+        }
+        .h3-texto2{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            margin-top: 5%;
+            margin-left:4%
+
+        }
+
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 1em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+}    
+/* TELA DEKSTOP P 2*/
+
+@media (min-width: 1201px) and (max-width:1300px ){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+    }
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+
+    }
+    .container-texto{
+        display: flex;
+        margin-left: 2%;
+        box-shadow: -6px 0px 0px #00C4FF;
+
+
+
+
+        }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 20em;
+        width: 13.5em;
+        border-radius:30px;     
+        box-shadow: 2px 8px 29px grey;
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    #card4{
+        display: none;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+
+        
+    }
+    .img-card{
+        width: 80px;
+        height: 80px;
+    }
+    .title-dep{
+        font-size: 15px;
+        margin-left:2%;
+
+    }
+    .p1-dep{
+        font-size: 13px;
+        margin-left:2%;
+
+    }
+    .p2-dep{
+        font-size: 10px; 
+    }
+    /* aba de textos*/
+        .h1-texto{
+            color: #00C4FF;
+            font-size: 40px;
+    
+
+        }
+        .h2-texto{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+
+        }
+        .h3-texto{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+
+        }
+        .h2-texto2{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+
+        }
+
+
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 1em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+    }
+
+
+/* TELA DEKSTOP P 1*/
+
+
+@media (min-width: 1000px) and (max-width:1200px ){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+    }
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+
+    }
+    .container-texto{
+        display: flex;
+        margin-right: 25%;
+        box-shadow: -5px 0px 0px #00C4FF;
+
+
+
+
+        }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 20em;
+        width: 13.5em;
+        border-radius:30px;     
+        box-shadow: 2px 8px 29px grey;
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    #card4{
+        display: none;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+
+        
+    }
+    .img-card{
+        width: 80px;
+        height: 80px;
+    }
+    .title-dep{
+        font-size: 15px;
+        margin-left:2%;
+
+    }
+    .p1-dep{
+        font-size: 13px;
+        margin-left:2%;
+
+    }
+    .p2-dep{
+        font-size: 10px; 
+    }
+    /* aba de textos*/  
+        
+    .h1-texto{
+        color: #00C4FF;
+        font-size: 40px;
+        margin-left: 5%;
+
+    }
+        .h2-texto{
+            color: rgb(0, 0, 0);
+            font-size: 45px;
+            margin-left: 5%;
+            margin-top: 5%;
+
+
+        }
+        .h3-texto{
+            margin-left: 5%;
+            font-size: 18px;
+            margin-top: 5%;
+
+
+        }
+        .h3-texto2{
+            margin-top: 5%;
+            margin-left: 5%;
+            font-size: 18px;
+
+        }
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 1em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+    }
+
+
+
+
+/* TELA TABLET*/
+
+
+
+
+@media (min-width: 768px) and (max-width:999px ){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+    }
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        margin-right: 3%;
+
+    }
+    .container-texto{
+        display: flex;
+        margin-right: 25%;
+        margin-left: 5%;
+        box-shadow: -6px 0px 0px #00C4FF;
+
+
+
+
+        }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 20em;
+        width: 13.5em;
+        border-radius:30px;     
+        box-shadow: 2px 8px 29px grey;
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    #card4{
+        display: none;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        
+
+        
+    }
+    .img-card{
+        width: 80px;
+        height: 80px;
+    }
+    .title-dep{
+        font-size: 15px;
+        margin-left:2%;
+
+    }
+    .p1-dep{
+        font-size: 13px;
+        margin-left:2%;
+
+    }
+    .p2-dep{
+        font-size: 10px; 
+    }
+    /* aba de textos*/  
+        
+    .h1-texto{
+        color: #00C4FF;
+        font-size: 50px;
+        margin-left: 5%;
+
+    }
+        .h2-texto{
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            margin-left: 5%;
+            margin-top: 5%;
+
+
+        }
+        .h3-texto{
+            margin-top: 5%;
+
+            margin-left: 5%;
+            font-size: 18px;
+
+        }
+        .h3-texto2{
+            margin-top: 5%;
+            margin-left: 5%;
+            font-size: 18px;
+
+        }
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 1em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+    }
+
+/* tela celular*/
+@media (min-width: 320px) and (max-width:767px )
+{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .container-body{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 120vh;
+    }
+    
+    
+    /* aba de card*/
+    .container-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+    }
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 23rem;
+        width: 17rem;
+        border-radius:30px;       
+        margin: 3%;
+        box-shadow: 2px 8px 29px grey;
+    }
+    .texto-card{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+    .img-card{
+        width: 70px;
+        height: 70px;
+    }
+    .title-dep{
+        font-size: 150%;
+    }
+    .p1-dep{
+        font-size: 112%;
+    }
+    .p2-dep{
+        font-size: 90%; 
+    }
+    
+    
+    /* aba de textos*/
+    .container-texto{
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 5%;
+        margin-left:6%;  
+        margin-bottom:5%;
+        box-shadow: -3px 0px #00C4FF;
+
+        }
+        .h1-texto{
+            color: #00C4FF;
+            font-size: 280%;
+            margin-left: 5%;
+
+        }
+        .h3-texto{
+            color: rgb(0, 0, 0);
+            font-size: 120%;
+            margin-top:5%;
+            margin-left: 5%;
+
+
+        }
+        .h3-texto2{
+            color: rgb(0, 0, 0);
+            font-size: 120%;
+            margin-top:5%;
+            margin-left: 5%;
+
+
+        }
+
+    /* botao*/
+    button{
+        font:inherit;
+        cursor: pointer;
+        }
+        .botao{
+        display:flex;
+        margin: 1em;
+        padding: 0.5em 1em;
+        background: #00C4FF;
+        color: rgba(255, 255, 255, 0.958);
+        border:0;
+        border-radius:0.5em;
+        }
+        a{
+            text-decoration: none;
+            color: #FFF;
+        } 
+    }
+    
